@@ -1,6 +1,10 @@
 # Weird-But-True
 世界真奇妙
 
+![列表页](./screenshoot/list.png)
+
+![!播放页](./screenshoot/movie.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
