@@ -1,0 +1,42 @@
+
+.movie{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-image: url('../images/cartoon-bg.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleName{
+    position: fixed;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    top: 30px;
+}
+.video{
+    height:50%;
+    width: 90%;
+    margin: 100px auto 20px;
+}
+.share{
+    width:150px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 30px;
+}
+@media (min-width: 550px) and (max-width: 1024px) {
+    .titleName{
+    position: fixed;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    top: 30px;
+}
+}
